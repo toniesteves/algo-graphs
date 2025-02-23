@@ -126,15 +126,16 @@ public:
 
 int main(int argc, char *argv[])
 {
-	Grafo g(5);
+	Grafo grafo(5);
 	
-	g.adicionarAresta(0, 1);
-	g.adicionarAresta(1, 2);
-	g.adicionarAresta(1, 3);
-	g.adicionarAresta(2, 0);
-	g.adicionarAresta(3, 4);
+	grafo.adicionarAresta(0, 1);
+	grafo.adicionarAresta(1, 2);
+	grafo.adicionarAresta(1, 3);
+	grafo.adicionarAresta(2, 0);
+	grafo.adicionarAresta(3, 4);
 	
-	g.imprimirComponentes();
+	
+	grafo.imprimirComponentes();
 	
 	return 0;
 }
