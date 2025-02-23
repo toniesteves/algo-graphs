@@ -1,4 +1,4 @@
-Simple implementation of the elementary graph algoritms in C++
+This repository is ongoing and concentrates on some experiments done by myself about Graph Algorithms in C++.
 
 * BSF (Breadth-first search)
 * DSF (Depth-first search)
